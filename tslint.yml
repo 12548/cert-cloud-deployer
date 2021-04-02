@@ -1,0 +1,28 @@
+extends: "tslint:recommended"
+rules  :
+  indent                     : false
+  quotemark                  :
+  - true
+  - single
+  member-access              : false
+  whitespace                 : false
+  ordered-imports            : false
+  semicolon                  :
+  - true
+  - never
+  interface-name             : false
+  trailing-comma:              false
+  arrow-parens               : false
+  no-consecutive-blank-lines : false
+  object-literal-sort-keys   : false
+  object-literal-key-quotes:   false
+  no-namespace               : false
+  no-reference               : false
+  no-trailing-whitespace     : false
+  await-promise              : [true, "Thenable"]
+  no-console                 : false
+  interface-over-type-literal: false
+  curly                      :
+  - true
+  - ignore-same-line
+  align                      : false

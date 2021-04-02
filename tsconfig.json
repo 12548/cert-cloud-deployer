@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "strictNullChecks": false,
+    "outDir": "dist",
+    "esModuleInterop": true,
+    "noImplicitAny": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "module": "commonjs",
+    "skipLibCheck": true,
+    "target": "es2017",
+    "lib": [
+      "es6"
+    ],
+    "sourceMap": true,
+    "allowJs": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "baseUrl": ".",
+    "paths": {
+      "*": [
+        "typings/*"
+      ]
+    },
+    "importsNotUsedAsValues": "error"
+  },
+  "compileOnSave": true,
+  "exclude": [
+    "node_modules",
+    "dist",
+    "coverage",
+    "documentation"
+  ]
+}
