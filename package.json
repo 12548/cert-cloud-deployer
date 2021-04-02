@@ -8,20 +8,19 @@
   },
   "scripts": {
     "test": "nyc mocha",
-    "prepare": "tsc",
-    "postinstall": "tsc"
+    "prepare": "tsc"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@alicloud/pop-core": "^1.7.9",
-    "@types/mocha": "^7.0.2",
     "moment": "^2.24.0",
     "qcloudapi-sdk": "^0.2.1",
     "tencentcloud-sdk-nodejs": "^4.0.90",
     "yaml": "^1.10.2"
   },
   "devDependencies": {
+    "@types/mocha": "^7.0.2",
     "@types/chai": "^4.2.11",
     "@types/chai-as-promised": "^7.1.2",
     "chai": "^4.2.0",
